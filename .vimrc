@@ -184,3 +184,7 @@ nnoremap <silent> <C-f><C-e> :FufEditInfo<CR>
 nnoremap <silent> <C-f><C-r> :FufRenewCache<CR>
 nnoremap <silent> <C-e><C-f> :NERDTreeToggle<CR>
 nnoremap <silent> <C-e><C-t> :TlistToggle<CR>
+
+"Remove whitespace
+nnoremap <silent> <C-m> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
