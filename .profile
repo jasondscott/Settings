@@ -12,6 +12,9 @@ export BUGS_BOUNTY_DATABASE="DEV_DATA"
 #aliases
 alias chrome="open /Applications/Google\ Chrome.app --args --disable-web-security" 
 alias dropbox="cd ~/Dropbox"
+alias downloads="cd ~/Downloads"
+alias desktop="cd ~/Desktop"
+alias public="cd ~/Dropbox/Public"
 alias docs="cd ~/Documents"
 alias dev="cd ~/Documents/Dev"
 alias getup="git fetch upstream && git checkout master && git merge upstream/master"
@@ -19,9 +22,13 @@ alias jqm="cd ~/Documents/Dev/JQM"
 alias myjqm="cd ~/Documents/Dev/myJQM"
 alias bb="cd ~/Documents/Dev/BugsBounty"
 alias theme="cd ~/Documents/Dev/JQM-BB-Theme"
+alias testing="cd ~/Dropbox/Public/Testing"
+
 alias reload="source ~/.profile"
+
 alias mysql="/Applications/MAMP/Library/bin/mysql"
 alias mysqladmin="/Applications/MAMP/Library/bin/mysqladmin"
+
 alias glog='git log --oneline --decorate --graph'
 alias up='cd ..'
 alias 2up='cd .. && cd ..'
